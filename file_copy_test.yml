@@ -10,3 +10,7 @@
     copy:
        content: "TEST CONTENT"
        dest: "{{ dest_dir }}/{{ dest_file }}"
+  - name: create temp file in 
+    copy:
+       content: "TEST CONTENT"
+       dest: ./{{ dest_file }}"
