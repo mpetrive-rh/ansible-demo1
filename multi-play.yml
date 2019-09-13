@@ -1,0 +1,9 @@
+- hosts: all
+  tasks:
+  - debug:
+      msg: "Hello from play one"
+      
+- hosts: all
+  tasks:
+  - debug:
+      msg: "Hell from play two"

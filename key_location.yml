@@ -1,0 +1,5 @@
+- hosts: localhost
+  tasks:
+  - debug:
+      msg: "{{ ansible_private_key_file }}"
+      
