@@ -1,0 +1,13 @@
+credential: ss_pipeline-scm-credential
+description: ''
+name: Job_export-objects
+organization: admin-oar
+scm_branch: ''
+scm_clean: false
+scm_delete_on_update: false
+scm_type: git
+scm_update_cache_timeout: 0
+scm_update_on_launch: false
+scm_url: ssh://git@gitlab.consulting.redhat.com:2222/statestreet/ss_pipeline.git
+timeout: 0
+type: project
