@@ -1,0 +1,33 @@
+allow_simultaneous: false
+ask_credential_on_launch: true
+ask_diff_mode_on_launch: false
+ask_inventory_on_launch: true
+ask_job_type_on_launch: false
+ask_limit_on_launch: false
+ask_skip_tags_on_launch: false
+ask_tags_on_launch: false
+ask_variables_on_launch: false
+ask_verbosity_on_launch: false
+become_enabled: false
+credential: null
+description: Used to export Job Template objects for promotion to next Tower lane
+diff_mode: false
+extra_vars: '{ tower_lane: "DEV", tower_region: "NA" }'
+force_handlers: false
+forks: 0
+host_config_key: ''
+inventory: 4
+job_slice_count: 1
+job_tags: ''
+job_type: run
+name: admin-oar_DEV_NA_Job_export-objects
+playbook: tower-export-job-template.yml
+project: Job_export-objects
+skip_tags: ''
+start_at_task: ''
+survey_enabled: true
+timeout: 0
+type: job_template
+use_fact_cache: false
+vault_credential: null
+verbosity: 0
