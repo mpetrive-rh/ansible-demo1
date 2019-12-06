@@ -1,0 +1,15 @@
+allow_override: false
+credential: null
+description: ''
+name: Proj_test-pbs
+organization: oar-infrastructure
+scm_branch: ''
+scm_clean: false
+scm_delete_on_update: false
+scm_refspec: ''
+scm_type: git
+scm_update_cache_timeout: 0
+scm_update_on_launch: false
+scm_url: https://github.com/mpetrive-rh/ansible-demo1.git
+timeout: 0
+type: project
