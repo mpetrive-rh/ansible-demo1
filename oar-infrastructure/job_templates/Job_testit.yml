@@ -22,7 +22,7 @@ job_tags: ''
 job_type: run
 name: Job_testit
 playbook: ping.yml
-project: false
+project: Proj_testit
 scm_branch: ''
 skip_tags: ''
 start_at_task: ''
