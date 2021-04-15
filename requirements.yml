@@ -1,0 +1,3 @@
+collections:
+  - name: redhat_cop.tower_configuration
+    source: https://github.com/redhat-cop/tower_configuration/releases/download/v0.0.1/redhat_cop-tower_configuration-0.0.1.tar.gz
